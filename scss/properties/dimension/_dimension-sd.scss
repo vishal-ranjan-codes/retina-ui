@@ -1,0 +1,66 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {	
+	.r-sd-width-25 {
+		width: 25%;
+	}
+
+	.r-sd-width-50 {
+		width: 50%;
+	}
+
+	.r-sd-width-75 {
+		width: 75%;
+	}
+
+	.r-sd-width-100 {
+		width: 100%;
+	}
+
+	.r-sd-width-auto {
+		width: auto;
+	}
+
+	.r-sd-max-width-100 {
+		max-width: 100%;
+	}
+
+	.r-sd-v-width-100 {
+		width: 100vw;
+	}
+
+	.r-sd-min-v-width-100 {
+		min-width: 100vw;
+	}
+
+	.r-sd-height-25 {
+		height: 25%;
+	}
+
+	.r-sd-height-50 {
+		height: 50%;
+	}
+
+	.r-sd-height-75 {
+		height: 75%;
+	}
+
+	.r-sd-height-100 {
+		height: 100%;
+	}
+
+	.r-sd-height-auto {
+		height: auto;
+	}
+
+	.r-sd-max-height-100 {
+		max-height: 100%;
+	}
+
+	.r-sd-v-height-100 {
+		height: 100vh;
+	}
+
+	.r-sd-min-v-height-100 {
+		min-height: 100vh;
+	}
+}

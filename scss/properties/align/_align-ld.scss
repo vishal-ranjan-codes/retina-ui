@@ -1,0 +1,70 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-align-items-start {
+		align-items: flex-start;
+	}
+
+	.r-ld-align-items-end {
+		align-items: flex-end;
+	}
+
+	.r-ld-align-items-center {
+		align-items: center;
+	}
+
+	.r-ld-align-items-baseline {
+		align-items: baseline;
+	}
+
+	.r-ld-align-items-stretch {
+		align-items: stretch;
+	}
+
+	.r-ld-align-content-start {
+		align-content: flex-start;
+	}
+
+	.r-ld-align-content-end {
+		align-content: flex-end;
+	}
+
+	.r-ld-align-content-center {
+		align-content: center;
+	}
+
+	.r-ld-align-content-between {
+		align-content: space-between;
+	}
+
+	.r-ld-align-content-around {
+		align-content: space-around;
+	}
+
+	.r-ld-align-content-stretch {
+		align-content: stretch;
+	}
+
+	.r-ld-align-self-auto {
+		align-self: auto;
+	}
+
+	.r-ld-align-self-start {
+		align-self: flex-start;
+	}
+
+	.r-ld-align-self-end {
+		align-self: flex-end;
+	}
+
+	.r-ld-align-self-center {
+		align-self: center;
+	}
+
+	.r-ld-align-self-baseline {
+		align-self: baseline;
+	}
+
+	.r-ld-align-self-stretch {
+		align-self: stretch;
+	}
+}

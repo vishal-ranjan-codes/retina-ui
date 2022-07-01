@@ -1,0 +1,62 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {
+	.r-sd-theme-br {
+		border-radius: var(--theme-border-radius);
+	}
+
+	.r-sd-br-1 {
+		border-radius: 1px;
+	}
+
+	.r-sd-br-2 {
+		border-radius: 2px;
+	}
+
+	.r-sd-br-3 {
+		border-radius: 3px;
+	}
+
+	.r-sd-br-4 {
+		border-radius: 4px;
+	}
+
+	.r-sd-br-5 {
+		border-radius: 5px;
+	}
+
+	.r-sd-br-6 {
+		border-radius: 6px;
+	}
+
+	.r-sd-br-7 {
+		border-radius: 7px;
+	}
+
+	.r-sd-br-8 {
+		border-radius: 8px;
+	}
+
+	.r-sd-br-9 {
+		border-radius: 9px;
+	}
+
+	.r-sd-br-10 {
+		border-radius: 10px;
+	}
+
+	.r-sd-br-15 {
+		border-radius: 15px;
+	}
+
+	.r-sd-br-20 {
+		border-radius: 20px;
+	}
+
+	.r-sd-br-full {
+		border-radius: 50%;
+	}
+
+	.r-sd-br-0 {
+		border-radius: 0;
+	}
+}

@@ -1,0 +1,51 @@
+.r-nav-menu {
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+	--nav-menu-spacing: 5px;
+}
+
+.r-nav-menu-item,
+.r-nav-menu > li {
+	margin-right: var(--nav-menu-spacing);
+	height: var(--nav-menu-height);
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.r-nav-menu-item:last-child,
+.r-nav-menu > li:last-child {
+	margin-right: 0;
+}
+
+.r-simple-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.r-vis-focus {
+	opacity: 0;
+	position: absolute;
+	left: -5000px;
+}
+
+.r-vis-focus:focus {
+	opacity: 1;
+	position: unset;
+}
+
+.r-vis-focus-within {
+	opacity: 0;
+	position: absolute;
+	left: -5000px;
+}
+
+.r-vis-focus-within:focus-within {
+	opacity: 1;
+	position: unset;
+}

@@ -1,0 +1,13 @@
+// Breakpoints
+
+$large-desktop: 1400px;
+$small-desktop: 900px;
+$large-mobile: 768px;
+$small-mobile: 500px;
+
+$break-ld: $large-desktop;
+$break-sd: $small-desktop;
+$break-tab-largest: $small-desktop - 1;
+$break-tab-smallest: $large-mobile;
+$break-lm: $large-mobile - 1;
+$break-sm: $small-mobile;

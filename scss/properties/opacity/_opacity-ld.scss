@@ -1,0 +1,22 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-opacity-0 {
+		opacity: 0;
+	}
+
+	.r-ld-opacity-25 {
+		opacity: 0.25;
+	}
+
+	.r-ld-opacity-50 {
+		opacity: 0.5;
+	}
+
+	.r-ld-opacity-75 {
+		opacity: 0.75;
+	}
+
+	.r-ld-opacity-100 {
+		opacity: 1;
+	}
+}

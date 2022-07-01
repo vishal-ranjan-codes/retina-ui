@@ -1,0 +1,33 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {	
+	.r-sd-d-none {
+		display: none;
+	}
+	.r-sd-d-inline {
+		display: inline;
+	}
+	.r-sd-d-inline-block {
+		display: inline-block;
+	}
+	.r-sd-d-block {
+		display: block;
+	}
+	.r-sd-d-grid {
+		display: grid;
+	}
+	.r-sd-d-table {
+		display: table;
+	}
+	.r-sd-d-table-cell {
+		display: none;
+	}
+	.r-sd-d-table-row {
+		display: table-row;
+	}
+	.r-sd-d-flex {
+		display: flex;
+	}
+	.r-sd-d-inline-flex {
+		display: inline-flex;
+	}
+}

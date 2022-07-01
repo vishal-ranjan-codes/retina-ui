@@ -1,0 +1,42 @@
+.r-container:after,
+.clear:after {
+	clear: both;
+}
+
+.r-container:before,
+.r-container:after,
+.clear:before,
+.clear:after {
+	display: table;
+	content: "";
+}
+
+.r-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 768px) {
+	.r-container {
+		max-width: 1200px;
+		padding: 0 30px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.r-container {
+		max-width: 1320px;
+	}
+}
+
+@media (max-width: 767px) {
+	.r-container {
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.r-container {
+		padding: 0 15px;
+	}
+}

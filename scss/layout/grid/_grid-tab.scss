@@ -1,0 +1,158 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+	.r-tab-grid {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		gap: 15px;
+	}
+
+	.r-tab-grid-col-1 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.r-tab-grid-col-2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.r-tab-grid-col-3 {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.r-tab-grid-col-4 {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.r-tab-grid-col-5 {
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	.r-tab-grid-col-6 {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.r-tab-grid-col-7 {
+		grid-template-columns: repeat(7, 1fr);
+	}
+
+	.r-tab-grid-col-8 {
+		grid-template-columns: repeat(8, 1fr);
+	}
+
+	.r-tab-grid-col-9 {
+		grid-template-columns: repeat(9, 1fr);
+	}
+
+	.r-tab-grid-col-10 {
+		grid-template-columns: repeat(10, 1fr);
+	}
+
+	.r-tab-grid-col-11 {
+		grid-template-columns: repeat(11, 1fr);
+	}
+
+	.r-tab-grid-col-12 {
+		grid-template-columns: repeat(12, 1fr);
+	}
+
+	/*Equal Width Columns*/
+	.r-tab-grid-ew-col-1 {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-4 {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-5 {
+		grid-template-columns: repeat(5, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-6 {
+		grid-template-columns: repeat(6, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-7 {
+		grid-template-columns: repeat(7, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-8 {
+		grid-template-columns: repeat(8, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-9 {
+		grid-template-columns: repeat(9, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-10 {
+		grid-template-columns: repeat(10, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-11 {
+		grid-template-columns: repeat(11, minmax(0, 1fr));
+	}
+
+	.r-tab-grid-ew-col-12 {
+		grid-template-columns: repeat(12, minmax(0, 1fr));
+	}
+
+	.r-tab-col-full {
+		grid-column: 1 / -1;
+	}
+
+	.r-tab-col-1 {
+		grid-column: auto/span 1;
+	}
+
+	.r-tab-col-2 {
+		grid-column: auto/span 2;
+	}
+
+	.r-tab-col-3 {
+		grid-column: auto/span 3;
+	}
+
+	.r-tab-col-4 {
+		grid-column: auto/span 4;
+	}
+
+	.r-tab-col-5 {
+		grid-column: auto/span 5;
+	}
+
+	.r-tab-col-6 {
+		grid-column: auto/span 6;
+	}
+
+	.r-tab-col-7 {
+		grid-column: auto/span 7;
+	}
+
+	.r-tab-col-8 {
+		grid-column: auto/span 8;
+	}
+
+	.r-tab-col-9 {
+		grid-column: auto/span 9;
+	}
+
+	.r-tab-col-10 {
+		grid-column: auto/span 10;
+	}
+
+	.r-tab-col-11 {
+		grid-column: auto/span 11;
+	}
+
+	.r-tab-col-12 {
+		grid-column: auto/span 12;
+	}
+}

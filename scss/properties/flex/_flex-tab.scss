@@ -1,0 +1,50 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+	.r-tab-flex-row {
+		flex-direction: row;
+	}
+
+	.r-tab-flex-column {
+		flex-direction: column;
+	}
+
+	.r-tab-flex-row-reverse {
+		flex-direction: row-reverse;
+	}
+
+	.r-tab-flex-column-reverse {
+		flex-direction: column-reverse;
+	}
+
+	.r-tab-flex-grow-0 {
+		flex-grow: 0;
+	}
+
+	.r-tab-flex-grow-1 {
+		flex-grow: 1;
+	}
+
+	.r-tab-flex-shrink-0 {
+		flex-shrink: 0;
+	}
+
+	.r-tab-flex-shrink-1 {
+		flex-shrink: 1;
+	}
+
+	.r-tab-flex-wrap {
+		flex-wrap: wrap;
+	}
+
+	.r-tab-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+
+	.r-tab-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+
+	.r-tab-flex-expand {
+	    flex: 1;
+	}
+}

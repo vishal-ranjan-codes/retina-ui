@@ -1,0 +1,71 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+	.r-tab-position-static {
+		position: static;
+	}
+
+	.r-tab-position-relative {
+		position: relative;
+	}
+
+	.r-tab-position-absolute {
+		position: absolute;
+	}
+
+	.r-tab-position-fixed {
+		position: fixed;
+	}
+
+	.r-tab-position-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+
+	.r-tab-top-0 {
+		top: 0;
+	}
+
+	.r-tab-top-50 {
+		top: 50%;
+	}
+
+	.r-tab-top-100 {
+		top: 100%;
+	}
+
+	.r-tab-bottom-0 {
+		bottom: 0;
+	}
+
+	.r-tab-bottom-50 {
+		bottom: 50%;
+	}
+
+	.r-tab-bottom-100 {
+		bottom: 100%;
+	}
+
+	.r-tab-start-0 {
+		left: 0;
+	}
+
+	.r-tab-start-50 {
+		left: 50%;
+	}
+
+	.r-tab-start-100 {
+		left: 100%;
+	}
+
+	.r-tab-end-0 {
+		right: 0;
+	}
+
+	.r-tab-end-50 {
+		right: 50%;
+	}
+
+	.r-tab-end-100 {
+		right: 100%;
+	}
+}

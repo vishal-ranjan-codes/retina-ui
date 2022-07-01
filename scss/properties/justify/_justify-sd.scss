@@ -1,0 +1,42 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {
+	.r-sd-justify-content-start {
+		justify-content: flex-start;
+	}
+
+	.r-sd-justify-content-end {
+		justify-content: flex-end;
+	}
+
+	.r-sd-justify-content-center {
+		justify-content: center;
+	}
+
+	.r-sd-justify-content-between {
+		justify-content: space-between;
+	}
+
+	.r-sd-justify-content-around {
+		justify-content: space-around;
+	}
+
+	.r-sd-justify-content-evenly {
+		justify-content: space-evenly;
+	}
+
+	.r-sd-justify-items-start {
+		justify-items: flex-start;
+	}
+
+	.r-sd-justify-items-end {
+		justify-items: flex-end;
+	}
+
+	.r-sd-justify-items-center {
+		justify-items: center;
+	}
+
+	.r-sd-justify-items-stretch {
+		justify-items: stretch;
+	}
+}

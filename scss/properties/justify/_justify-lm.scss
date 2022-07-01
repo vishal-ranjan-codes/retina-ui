@@ -1,0 +1,42 @@
+/* Large Mobile */
+@media (min-width: $break-lm) {
+	.r-lm-justify-content-start {
+		justify-content: flex-start;
+	}
+
+	.r-lm-justify-content-end {
+		justify-content: flex-end;
+	}
+
+	.r-lm-justify-content-center {
+		justify-content: center;
+	}
+
+	.r-lm-justify-content-between {
+		justify-content: space-between;
+	}
+
+	.r-lm-justify-content-around {
+		justify-content: space-around;
+	}
+
+	.r-lm-justify-content-evenly {
+		justify-content: space-evenly;
+	}
+
+	.r-lm-justify-items-start {
+		justify-items: flex-start;
+	}
+
+	.r-lm-justify-items-end {
+		justify-items: flex-end;
+	}
+
+	.r-lm-justify-items-center {
+		justify-items: center;
+	}
+
+	.r-lm-justify-items-stretch {
+		justify-items: stretch;
+	}
+}

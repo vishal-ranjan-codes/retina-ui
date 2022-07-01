@@ -1,0 +1,22 @@
+/* Small Mobile */
+@media (min-width: $break-sm) {
+	.r-sm-opacity-0 {
+		opacity: 0;
+	}
+
+	.r-sm-opacity-25 {
+		opacity: 0.25;
+	}
+
+	.r-sm-opacity-50 {
+		opacity: 0.5;
+	}
+
+	.r-sm-opacity-75 {
+		opacity: 0.75;
+	}
+
+	.r-sm-opacity-100 {
+		opacity: 1;
+	}
+}

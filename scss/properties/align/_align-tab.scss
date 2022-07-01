@@ -1,0 +1,70 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+	.r-tab-align-items-start {
+		align-items: flex-start;
+	}
+
+	.r-tab-align-items-end {
+		align-items: flex-end;
+	}
+
+	.r-tab-align-items-center {
+		align-items: center;
+	}
+
+	.r-tab-align-items-baseline {
+		align-items: baseline;
+	}
+
+	.r-tab-align-items-stretch {
+		align-items: stretch;
+	}
+
+	.r-tab-align-content-start {
+		align-content: flex-start;
+	}
+
+	.r-tab-align-content-end {
+		align-content: flex-end;
+	}
+
+	.r-tab-align-content-center {
+		align-content: center;
+	}
+
+	.r-tab-align-content-between {
+		align-content: space-between;
+	}
+
+	.r-tab-align-content-around {
+		align-content: space-around;
+	}
+
+	.r-tab-align-content-stretch {
+		align-content: stretch;
+	}
+
+	.r-tab-align-self-auto {
+		align-self: auto;
+	}
+
+	.r-tab-align-self-start {
+		align-self: flex-start;
+	}
+
+	.r-tab-align-self-end {
+		align-self: flex-end;
+	}
+
+	.r-tab-align-self-center {
+		align-self: center;
+	}
+
+	.r-tab-align-self-baseline {
+		align-self: baseline;
+	}
+
+	.r-tab-align-self-stretch {
+		align-self: stretch;
+	}
+}

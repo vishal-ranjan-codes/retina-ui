@@ -1,0 +1,39 @@
+.r-icon {
+	--icon-size: 35px;
+	--icon-font-size: 20px;
+	--icon-padding: 5px;
+
+	min-width: var(--icon-size);
+	height: var(--icon-size);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: var(--icon-padding);
+	text-decoration: none;
+	position: relative;
+}
+
+.r-icon > i {
+	font-size: var(--icon-font-size);
+}
+
+.r-icon .r-icon-count {
+	--icon-count-size: 16px;
+	--count-p-top: 0;
+	--count-p-right: 0;
+
+	width: var(--icon-count-size);
+	height: var(--icon-count-size);
+	top: var(--count-p-top);
+	right: var(--count-p-right);
+	background: var(--color-secondary);
+	border-radius: 50%;
+	color: #fff;
+	line-height: 1.6;
+	font-size: 10px;
+	font-weight: 800;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

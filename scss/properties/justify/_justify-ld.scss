@@ -1,0 +1,42 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-justify-content-start {
+		justify-content: flex-start;
+	}
+
+	.r-ld-justify-content-end {
+		justify-content: flex-end;
+	}
+
+	.r-ld-justify-content-center {
+		justify-content: center;
+	}
+
+	.r-ld-justify-content-between {
+		justify-content: space-between;
+	}
+
+	.r-ld-justify-content-around {
+		justify-content: space-around;
+	}
+
+	.r-ld-justify-content-evenly {
+		justify-content: space-evenly;
+	}
+
+	.r-ld-justify-items-start {
+		justify-items: flex-start;
+	}
+
+	.r-ld-justify-items-end {
+		justify-items: flex-end;
+	}
+
+	.r-ld-justify-items-center {
+		justify-items: center;
+	}
+
+	.r-ld-justify-items-stretch {
+		justify-items: stretch;
+	}
+}

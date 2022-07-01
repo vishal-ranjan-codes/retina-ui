@@ -1,0 +1,33 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-d-none {
+		display: none;
+	}
+	.r-ld-d-inline {
+		display: inline;
+	}
+	.r-ld-d-inline-block {
+		display: inline-block;
+	}
+	.r-ld-d-block {
+		display: block;
+	}
+	.r-ld-d-grid {
+		display: grid;
+	}
+	.r-ld-d-table {
+		display: table;
+	}
+	.r-ld-d-table-cell {
+		display: none;
+	}
+	.r-ld-d-table-row {
+		display: table-row;
+	}
+	.r-ld-d-flex {
+		display: flex;
+	}
+	.r-ld-d-inline-flex {
+		display: inline-flex;
+	}
+}

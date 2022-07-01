@@ -1,0 +1,22 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {	
+	.r-sd-opacity-0 {
+		opacity: 0;
+	}
+
+	.r-sd-opacity-25 {
+		opacity: 0.25;
+	}
+
+	.r-sd-opacity-50 {
+		opacity: 0.5;
+	}
+
+	.r-sd-opacity-75 {
+		opacity: 0.75;
+	}
+
+	.r-sd-opacity-100 {
+		opacity: 1;
+	}
+}

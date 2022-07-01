@@ -1,0 +1,32 @@
+/* Large Mobile */
+@media (min-width: $break-lm) {
+	.r-lm-shadow-s {
+		box-shadow: 3px 3px 10px #00000015;
+	}
+
+	.r-lm-shadow-m {
+		box-shadow: 3px 3px 25px #00000015;
+	}
+
+	.r-lm-shadow-l {
+		box-shadow: 3px 3px 60px #00000015;
+	}
+
+	.r-lm-hov-shadow-s,
+	.r-lm-hov-shadow-m,
+	.r-lm-hov-shadow-l {
+		transition: 0.3s;
+	}
+
+	.r-lm-hov-shadow-s:hover {
+		box-shadow: 3px 3px 10px #00000015;
+	}
+
+	.r-lm-hov-shadow-m:hover {
+		box-shadow: 3px 3px 25px #00000015;
+	}
+
+	.r-lm-hov-shadow-l:hover {
+		box-shadow: 3px 3px 60px #00000015;
+	}
+}

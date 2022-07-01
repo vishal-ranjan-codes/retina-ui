@@ -1,0 +1,51 @@
+.r-media-crop {
+	position: relative;
+	overflow: hidden;
+	padding-top: 55%;
+	display: block;
+}
+
+.r-media-crop-16-9 {
+	aspect-ratio: 16 / 9;
+	position: relative;
+	overflow: hidden;
+}
+
+.r-media-crop-1-1 {
+	aspect-ratio: 1 / 1;
+	position: relative;
+	overflow: hidden;
+}
+
+.r-media-crop img,
+.r-media-crop-16-9 img,
+.r-media-crop-square img,
+.r-media-crop video,
+.r-media-crop-16-9 video,
+.r-media-crop-square video,
+.r-media-crop iframe,
+.r-media-crop-16-9 iframe,
+.r-media-crop-square iframe,
+.r-media-crop .r-media,
+.r-media-crop-16-9 .r-media,
+.r-media-crop-square .r-media {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 0;
+	min-height: 100%;
+	width: auto;
+	min-width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.r-image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}

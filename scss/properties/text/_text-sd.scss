@@ -1,0 +1,163 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {
+	.r-sd-fs-1 {
+		font-size: var(--font-size-1);
+	}
+
+	.r-sd-fs-2 {
+		font-size: var(--font-size-2);
+	}
+
+	.r-sd-fs-3 {
+		font-size: var(--font-size-3);
+	}
+
+	.r-sd-fs-4 {
+		font-size: var(--font-size-4);
+	}
+
+	.r-sd-fs-5 {
+		font-size: var(--font-size-5);
+	}
+
+	.r-sd-fs-regular {
+		font-size: var(--font-size-regular);
+	}
+
+	.r-sd-fs-large {
+		font-size: var(--font-size-large);
+	}
+
+	.r-sd-fs-larger {
+		font-size: var(--font-size-larger);
+	}
+
+	.r-sd-fst-italic {
+		font-style: italic;
+	}
+
+	.r-sd-fst-normal {
+		font-style: normal;
+	}
+
+	.r-sd-fw-light {
+		font-weight: 300;
+	}
+
+	.r-sd-fw-lighter {
+		font-weight: lighter;
+	}
+
+	.r-sd-fw-normal {
+		font-weight: 400;
+	}
+
+	.r-sd-fw-bold {
+		font-weight: 700;
+	}
+
+	.r-sd-fw-bolder {
+		font-weight: bolder;
+	}
+
+	.r-sd-fw-100 {
+		font-weight: 100;
+	}
+
+	.r-sd-fw-200 {
+		font-weight: 200;
+	}
+
+	.r-sd-fw-300 {
+		font-weight: 300;
+	}
+
+	.r-sd-fw-400 {
+		font-weight: 400;
+	}
+
+	.r-sd-fw-500 {
+		font-weight: 500;
+	}
+
+	.r-sd-fw-600 {
+		font-weight: 600;
+	}
+
+	.r-sd-fw-700 {
+		font-weight: 700;
+	}
+
+	.r-sd-fw-800 {
+		font-weight: 800;
+	}
+
+	.r-sd-fw-900 {
+		font-weight: 900;
+	}
+
+	.r-sd-lh-1 {
+		line-height: 1;
+	}
+
+	.r-sd-lh-sm {
+		line-height: 1.25;
+	}
+
+	.r-sd-lh-base {
+		line-height: 1.4;
+	}
+
+	.r-sd-lh-lg {
+		line-height: 2;
+	}
+
+	.r-sd-text-left {
+		text-align: left;
+	}
+
+	.r-sd-text-right {
+		text-align: right;
+	}
+
+	.r-sd-text-center {
+		text-align: center;
+	}
+
+	.r-sd-text-decoration-none {
+		text-decoration: none;
+	}
+
+	.r-sd-text-decoration-underline {
+		text-decoration: underline;
+	}
+
+	.r-sd-text-decoration-line-through {
+		text-decoration: line-through;
+	}
+
+	.r-sd-text-lowercase {
+		text-transform: lowercase;
+	}
+
+	.r-sd-text-uppercase {
+		text-transform: uppercase;
+	}
+
+	.r-sd-text-capitalize {
+		text-transform: capitalize;
+	}
+
+	.r-sd-text-wrap {
+		white-space: normal;
+	}
+
+	.r-sd-text-nowrap {
+		white-space: nowrap;
+	}
+
+	.r-sd-text-break {
+		word-wrap: break-word;
+		word-break: break-word;
+	}
+}

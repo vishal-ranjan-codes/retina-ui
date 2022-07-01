@@ -1,0 +1,50 @@
+/* Small Mobile */
+@media (min-width: $break-sm) {
+	.r-sm-flex-row {
+		flex-direction: row;
+	}
+
+	.r-sm-flex-column {
+		flex-direction: column;
+	}
+
+	.r-sm-flex-row-reverse {
+		flex-direction: row-reverse;
+	}
+
+	.r-sm-flex-column-reverse {
+		flex-direction: column-reverse;
+	}
+
+	.r-sm-flex-grow-0 {
+		flex-grow: 0;
+	}
+
+	.r-sm-flex-grow-1 {
+		flex-grow: 1;
+	}
+
+	.r-sm-flex-shrink-0 {
+		flex-shrink: 0;
+	}
+
+	.r-sm-flex-shrink-1 {
+		flex-shrink: 1;
+	}
+
+	.r-sm-flex-wrap {
+		flex-wrap: wrap;
+	}
+
+	.r-sm-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+
+	.r-sm-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+
+	.r-sm-flex-expand {
+	    flex: 1;
+	}
+}

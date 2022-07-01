@@ -1,0 +1,15 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-overflow-auto {
+		overflow: auto;
+	}
+	.r-ld-overflow-hidden {
+		overflow: hidden;
+	}
+	.r-ld-overflow-visible {
+		overflow: visible;
+	}
+	.r-ld-overflow-scroll {
+		overflow: scroll;
+	}
+}

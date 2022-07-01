@@ -1,0 +1,15 @@
+/* Large Mobile */
+@media (min-width: $break-lm) {
+	.r-lm-overflow-auto {
+		overflow: auto;
+	}
+	.r-lm-overflow-hidden {
+		overflow: hidden;
+	}
+	.r-lm-overflow-visible {
+		overflow: visible;
+	}
+	.r-lm-overflow-scroll {
+		overflow: scroll;
+	}
+}

@@ -1,0 +1,62 @@
+/* Small Mobile */
+@media (min-width: $break-sm) {
+	.r-sm-theme-br {
+		border-radius: var(--theme-border-radius);
+	}
+
+	.r-sm-br-1 {
+		border-radius: 1px;
+	}
+
+	.r-sm-br-2 {
+		border-radius: 2px;
+	}
+
+	.r-sm-br-3 {
+		border-radius: 3px;
+	}
+
+	.r-sm-br-4 {
+		border-radius: 4px;
+	}
+
+	.r-sm-br-5 {
+		border-radius: 5px;
+	}
+
+	.r-sm-br-6 {
+		border-radius: 6px;
+	}
+
+	.r-sm-br-7 {
+		border-radius: 7px;
+	}
+
+	.r-sm-br-8 {
+		border-radius: 8px;
+	}
+
+	.r-sm-br-9 {
+		border-radius: 9px;
+	}
+
+	.r-sm-br-10 {
+		border-radius: 10px;
+	}
+
+	.r-sm-br-15 {
+		border-radius: 15px;
+	}
+
+	.r-sm-br-20 {
+		border-radius: 20px;
+	}
+
+	.r-sm-br-full {
+		border-radius: 50%;
+	}
+
+	.r-sm-br-0 {
+		border-radius: 0;
+	}
+}

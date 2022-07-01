@@ -1,0 +1,41 @@
+// Small Desktop
+@media (min-width: 900px) {
+
+}
+// Large Desktop
+@media (min-width: 1400px) {
+
+}
+// Tablet
+@media (max-width: 900px) and (min-width: 768px) {
+
+}
+// Large Mobile
+@media (max-width: 767px) {
+
+}
+// Small Mobile
+@media (max-width: 500px) {
+
+}
+
+// Small Desktop
+@media (min-width: $break-sd) {
+
+}
+// Large Desktop
+@media (min-width: $break-ld) {
+
+}
+// Tablet
+@media (max-width: $break-tab-largest) and (min-width: $break-tab-smallest) {
+
+}
+// Large Mobile
+@media (max-width: $break-lm) {
+
+}
+// Small Mobile
+@media (max-width: $break-sm) {
+
+}

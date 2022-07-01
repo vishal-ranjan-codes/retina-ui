@@ -1,0 +1,42 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+	.r-tab-border {
+		border: var(--layout-border);
+	}
+
+	.r-tab-border-t {
+		border-top: var(--layout-border);
+	}
+
+	.r-tab-border-b {
+		border-bottom: var(--layout-border);
+	}
+
+	.r-tab-border-l {
+		border-left: var(--layout-border);
+	}
+
+	.r-tab-border-r {
+		border-right: var(--layout-border);
+	}
+
+	.r-tab-border-t-0 {
+		border-top: 0px;
+	}
+
+	.r-tab-border-b-0 {
+		border-bottom: 0px;
+	}
+
+	.r-tab-border-l-0 {
+		border-left: 0px;
+	}
+
+	.r-tab-border-r-0 {
+		border-right: 0px;
+	}
+
+	.r-tab-border-0 {
+		border: 0px;
+	}
+}

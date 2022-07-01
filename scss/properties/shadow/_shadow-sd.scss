@@ -1,0 +1,32 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {
+	.r-sd-shadow-s {
+		box-shadow: 3px 3px 10px #00000015;
+	}
+
+	.r-sd-shadow-m {
+		box-shadow: 3px 3px 25px #00000015;
+	}
+
+	.r-sd-shadow-l {
+		box-shadow: 3px 3px 60px #00000015;
+	}
+
+	.r-sd-hov-shadow-s,
+	.r-sd-hov-shadow-m,
+	.r-sd-hov-shadow-l {
+		transition: 0.3s;
+	}
+
+	.r-sd-hov-shadow-s:hover {
+		box-shadow: 3px 3px 10px #00000015;
+	}
+
+	.r-sd-hov-shadow-m:hover {
+		box-shadow: 3px 3px 25px #00000015;
+	}
+
+	.r-sd-hov-shadow-l:hover {
+		box-shadow: 3px 3px 60px #00000015;
+	}
+}

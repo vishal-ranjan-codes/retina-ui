@@ -1,0 +1,32 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-shadow-s {
+		box-shadow: 3px 3px 10px #00000015;
+	}
+
+	.r-ld-shadow-m {
+		box-shadow: 3px 3px 25px #00000015;
+	}
+
+	.r-ld-shadow-l {
+		box-shadow: 3px 3px 60px #00000015;
+	}
+
+	.r-ld-hov-shadow-s,
+	.r-ld-hov-shadow-m,
+	.r-ld-hov-shadow-l {
+		transition: 0.3s;
+	}
+
+	.r-ld-hov-shadow-s:hover {
+		box-shadow: 3px 3px 10px #00000015;
+	}
+
+	.r-ld-hov-shadow-m:hover {
+		box-shadow: 3px 3px 25px #00000015;
+	}
+
+	.r-ld-hov-shadow-l:hover {
+		box-shadow: 3px 3px 60px #00000015;
+	}
+}

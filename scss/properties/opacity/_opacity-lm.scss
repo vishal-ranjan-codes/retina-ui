@@ -1,0 +1,22 @@
+/* Large Mobile */
+@media (min-width: $break-lm) {
+	.r-lm-opacity-0 {
+		opacity: 0;
+	}
+
+	.r-lm-opacity-25 {
+		opacity: 0.25;
+	}
+
+	.r-lm-opacity-50 {
+		opacity: 0.5;
+	}
+
+	.r-lm-opacity-75 {
+		opacity: 0.75;
+	}
+
+	.r-lm-opacity-100 {
+		opacity: 1;
+	}
+}

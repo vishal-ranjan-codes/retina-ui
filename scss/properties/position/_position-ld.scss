@@ -1,0 +1,71 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-position-static {
+		position: static;
+	}
+
+	.r-ld-position-relative {
+		position: relative;
+	}
+
+	.r-ld-position-absolute {
+		position: absolute;
+	}
+
+	.r-ld-position-fixed {
+		position: fixed;
+	}
+
+	.r-ld-position-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+
+	.r-ld-top-0 {
+		top: 0;
+	}
+
+	.r-ld-top-50 {
+		top: 50%;
+	}
+
+	.r-ld-top-100 {
+		top: 100%;
+	}
+
+	.r-ld-bottom-0 {
+		bottom: 0;
+	}
+
+	.r-ld-bottom-50 {
+		bottom: 50%;
+	}
+
+	.r-ld-bottom-100 {
+		bottom: 100%;
+	}
+
+	.r-ld-start-0 {
+		left: 0;
+	}
+
+	.r-ld-start-50 {
+		left: 50%;
+	}
+
+	.r-ld-start-100 {
+		left: 100%;
+	}
+
+	.r-ld-end-0 {
+		right: 0;
+	}
+
+	.r-ld-end-50 {
+		right: 50%;
+	}
+
+	.r-ld-end-100 {
+		right: 100%;
+	}
+}

@@ -1,0 +1,15 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+	.r-tab-overflow-auto {
+		overflow: auto;
+	}
+	.r-tab-overflow-hidden {
+		overflow: hidden;
+	}
+	.r-tab-overflow-visible {
+		overflow: visible;
+	}
+	.r-tab-overflow-scroll {
+		overflow: scroll;
+	}
+}

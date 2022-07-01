@@ -1,0 +1,50 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {
+	.r-sd-flex-row {
+		flex-direction: row;
+	}
+
+	.r-sd-flex-column {
+		flex-direction: column;
+	}
+
+	.r-sd-flex-row-reverse {
+		flex-direction: row-reverse;
+	}
+
+	.r-sd-flex-column-reverse {
+		flex-direction: column-reverse;
+	}
+
+	.r-sd-flex-grow-0 {
+		flex-grow: 0;
+	}
+
+	.r-sd-flex-grow-1 {
+		flex-grow: 1;
+	}
+
+	.r-sd-flex-shrink-0 {
+		flex-shrink: 0;
+	}
+
+	.r-sd-flex-shrink-1 {
+		flex-shrink: 1;
+	}
+
+	.r-sd-flex-wrap {
+		flex-wrap: wrap;
+	}
+
+	.r-sd-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+
+	.r-sd-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+
+	.r-sd-flex-expand {
+	    flex: 1;
+	}
+}

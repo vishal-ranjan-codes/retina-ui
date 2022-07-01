@@ -1,0 +1,15 @@
+/* Small Mobile */
+@media (min-width: $break-sm) {
+	.r-sm-overflow-auto {
+		overflow: auto;
+	}
+	.r-sm-overflow-hidden {
+		overflow: hidden;
+	}
+	.r-sm-overflow-visible {
+		overflow: visible;
+	}
+	.r-sm-overflow-scroll {
+		overflow: scroll;
+	}
+}

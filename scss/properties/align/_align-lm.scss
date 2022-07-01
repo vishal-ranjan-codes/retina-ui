@@ -1,0 +1,70 @@
+/* Large Mobile */
+@media (min-width: $break-lm) {
+	.r-lm-align-items-start {
+		align-items: flex-start;
+	}
+
+	.r-lm-align-items-end {
+		align-items: flex-end;
+	}
+
+	.r-lm-align-items-center {
+		align-items: center;
+	}
+
+	.r-lm-align-items-baseline {
+		align-items: baseline;
+	}
+
+	.r-lm-align-items-stretch {
+		align-items: stretch;
+	}
+
+	.r-lm-align-content-start {
+		align-content: flex-start;
+	}
+
+	.r-lm-align-content-end {
+		align-content: flex-end;
+	}
+
+	.r-lm-align-content-center {
+		align-content: center;
+	}
+
+	.r-lm-align-content-between {
+		align-content: space-between;
+	}
+
+	.r-lm-align-content-around {
+		align-content: space-around;
+	}
+
+	.r-lm-align-content-stretch {
+		align-content: stretch;
+	}
+
+	.r-lm-align-self-auto {
+		align-self: auto;
+	}
+
+	.r-lm-align-self-start {
+		align-self: flex-start;
+	}
+
+	.r-lm-align-self-end {
+		align-self: flex-end;
+	}
+
+	.r-lm-align-self-center {
+		align-self: center;
+	}
+
+	.r-lm-align-self-baseline {
+		align-self: baseline;
+	}
+
+	.r-lm-align-self-stretch {
+		align-self: stretch;
+	}
+}

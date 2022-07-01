@@ -1,0 +1,62 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {	
+	.r-tab-theme-br {
+		border-radius: var(--theme-border-radius);
+	}
+
+	.r-tab-br-1 {
+		border-radius: 1px;
+	}
+
+	.r-tab-br-2 {
+		border-radius: 2px;
+	}
+
+	.r-tab-br-3 {
+		border-radius: 3px;
+	}
+
+	.r-tab-br-4 {
+		border-radius: 4px;
+	}
+
+	.r-tab-br-5 {
+		border-radius: 5px;
+	}
+
+	.r-tab-br-6 {
+		border-radius: 6px;
+	}
+
+	.r-tab-br-7 {
+		border-radius: 7px;
+	}
+
+	.r-tab-br-8 {
+		border-radius: 8px;
+	}
+
+	.r-tab-br-9 {
+		border-radius: 9px;
+	}
+
+	.r-tab-br-10 {
+		border-radius: 10px;
+	}
+
+	.r-tab-br-15 {
+		border-radius: 15px;
+	}
+
+	.r-tab-br-20 {
+		border-radius: 20px;
+	}
+
+	.r-tab-br-full {
+		border-radius: 50%;
+	}
+
+	.r-tab-br-0 {
+		border-radius: 0;
+	}
+}

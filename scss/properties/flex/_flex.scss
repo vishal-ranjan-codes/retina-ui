@@ -1,0 +1,47 @@
+.r-flex-row {
+	flex-direction: row;
+}
+
+.r-flex-column {
+	flex-direction: column;
+}
+
+.r-flex-row-reverse {
+	flex-direction: row-reverse;
+}
+
+.r-flex-column-reverse {
+	flex-direction: column-reverse;
+}
+
+.r-flex-grow-0 {
+	flex-grow: 0;
+}
+
+.r-flex-grow-1 {
+	flex-grow: 1;
+}
+
+.r-flex-shrink-0 {
+	flex-shrink: 0;
+}
+
+.r-flex-shrink-1 {
+	flex-shrink: 1;
+}
+
+.r-flex-wrap {
+	flex-wrap: wrap;
+}
+
+.r-flex-nowrap {
+	flex-wrap: nowrap;
+}
+
+.r-flex-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+.r-flex-expand {
+    flex: 1;
+}

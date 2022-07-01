@@ -1,0 +1,15 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {
+	.r-sd-overflow-auto {
+		overflow: auto;
+	}
+	.r-sd-overflow-hidden {
+		overflow: hidden;
+	}
+	.r-sd-overflow-visible {
+		overflow: visible;
+	}
+	.r-sd-overflow-scroll {
+		overflow: scroll;
+	}
+}

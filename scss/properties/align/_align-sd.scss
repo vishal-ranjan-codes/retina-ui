@@ -1,0 +1,70 @@
+/* Small Desktop */
+@media (min-width: $break-sd) {
+	.r-sd-align-items-start {
+		align-items: flex-start;
+	}
+
+	.r-sd-align-items-end {
+		align-items: flex-end;
+	}
+
+	.r-sd-align-items-center {
+		align-items: center;
+	}
+
+	.r-sd-align-items-baseline {
+		align-items: baseline;
+	}
+
+	.r-sd-align-items-stretch {
+		align-items: stretch;
+	}
+
+	.r-sd-align-content-start {
+		align-content: flex-start;
+	}
+
+	.r-sd-align-content-end {
+		align-content: flex-end;
+	}
+
+	.r-sd-align-content-center {
+		align-content: center;
+	}
+
+	.r-sd-align-content-between {
+		align-content: space-between;
+	}
+
+	.r-sd-align-content-around {
+		align-content: space-around;
+	}
+
+	.r-sd-align-content-stretch {
+		align-content: stretch;
+	}
+
+	.r-sd-align-self-auto {
+		align-self: auto;
+	}
+
+	.r-sd-align-self-start {
+		align-self: flex-start;
+	}
+
+	.r-sd-align-self-end {
+		align-self: flex-end;
+	}
+
+	.r-sd-align-self-center {
+		align-self: center;
+	}
+
+	.r-sd-align-self-baseline {
+		align-self: baseline;
+	}
+
+	.r-sd-align-self-stretch {
+		align-self: stretch;
+	}
+}

@@ -1,0 +1,62 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-theme-br {
+		border-radius: var(--theme-border-radius);
+	}
+
+	.r-ld-br-1 {
+		border-radius: 1px;
+	}
+
+	.r-ld-br-2 {
+		border-radius: 2px;
+	}
+
+	.r-ld-br-3 {
+		border-radius: 3px;
+	}
+
+	.r-ld-br-4 {
+		border-radius: 4px;
+	}
+
+	.r-ld-br-5 {
+		border-radius: 5px;
+	}
+
+	.r-ld-br-6 {
+		border-radius: 6px;
+	}
+
+	.r-ld-br-7 {
+		border-radius: 7px;
+	}
+
+	.r-ld-br-8 {
+		border-radius: 8px;
+	}
+
+	.r-ld-br-9 {
+		border-radius: 9px;
+	}
+
+	.r-ld-br-10 {
+		border-radius: 10px;
+	}
+
+	.r-ld-br-15 {
+		border-radius: 15px;
+	}
+
+	.r-ld-br-20 {
+		border-radius: 20px;
+	}
+
+	.r-ld-br-full {
+		border-radius: 50%;
+	}
+
+	.r-ld-br-0 {
+		border-radius: 0;
+	}
+}

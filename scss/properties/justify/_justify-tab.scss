@@ -1,0 +1,42 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {	
+	.r-tab-justify-content-start {
+		justify-content: flex-start;
+	}
+
+	.r-tab-justify-content-end {
+		justify-content: flex-end;
+	}
+
+	.r-tab-justify-content-center {
+		justify-content: center;
+	}
+
+	.r-tab-justify-content-between {
+		justify-content: space-between;
+	}
+
+	.r-tab-justify-content-around {
+		justify-content: space-around;
+	}
+
+	.r-tab-justify-content-evenly {
+		justify-content: space-evenly;
+	}
+
+	.r-tab-justify-items-start {
+		justify-items: flex-start;
+	}
+
+	.r-tab-justify-items-end {
+		justify-items: flex-end;
+	}
+
+	.r-tab-justify-items-center {
+		justify-items: center;
+	}
+
+	.r-tab-justify-items-stretch {
+		justify-items: stretch;
+	}
+}

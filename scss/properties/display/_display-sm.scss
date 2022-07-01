@@ -1,0 +1,33 @@
+/* Small Mobile */
+@media (min-width: $break-sm) {
+	.r-sm-d-none {
+		display: none;
+	}
+	.r-sm-d-inline {
+		display: inline;
+	}
+	.r-sm-d-inline-block {
+		display: inline-block;
+	}
+	.r-sm-d-block {
+		display: block;
+	}
+	.r-sm-d-grid {
+		display: grid;
+	}
+	.r-sm-d-table {
+		display: table;
+	}
+	.r-sm-d-table-cell {
+		display: none;
+	}
+	.r-sm-d-table-row {
+		display: table-row;
+	}
+	.r-sm-d-flex {
+		display: flex;
+	}
+	.r-sm-d-inline-flex {
+		display: inline-flex;
+	}
+}

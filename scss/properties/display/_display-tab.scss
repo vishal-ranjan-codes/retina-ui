@@ -1,0 +1,33 @@
+/* Tablet */
+@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+	.r-tab-d-none {
+		display: none;
+	}
+	.r-tab-d-inline {
+		display: inline;
+	}
+	.r-tab-d-inline-block {
+		display: inline-block;
+	}
+	.r-tab-d-block {
+		display: block;
+	}
+	.r-tab-d-grid {
+		display: grid;
+	}
+	.r-tab-d-table {
+		display: table;
+	}
+	.r-tab-d-table-cell {
+		display: none;
+	}
+	.r-tab-d-table-row {
+		display: table-row;
+	}
+	.r-tab-d-flex {
+		display: flex;
+	}
+	.r-tab-d-inline-flex {
+		display: inline-flex;
+	}
+}

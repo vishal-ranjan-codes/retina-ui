@@ -1,0 +1,50 @@
+/* Large Desktop */
+@media (min-width: $break-ld) {
+	.r-ld-flex-row {
+		flex-direction: row;
+	}
+
+	.r-ld-flex-column {
+		flex-direction: column;
+	}
+
+	.r-ld-flex-row-reverse {
+		flex-direction: row-reverse;
+	}
+
+	.r-ld-flex-column-reverse {
+		flex-direction: column-reverse;
+	}
+
+	.r-ld-flex-grow-0 {
+		flex-grow: 0;
+	}
+
+	.r-ld-flex-grow-1 {
+		flex-grow: 1;
+	}
+
+	.r-ld-flex-shrink-0 {
+		flex-shrink: 0;
+	}
+
+	.r-ld-flex-shrink-1 {
+		flex-shrink: 1;
+	}
+
+	.r-ld-flex-wrap {
+		flex-wrap: wrap;
+	}
+
+	.r-ld-flex-nowrap {
+		flex-wrap: nowrap;
+	}
+
+	.r-ld-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+
+	.r-ld-flex-expand {
+	    flex: 1;
+	}
+}

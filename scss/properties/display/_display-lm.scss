@@ -1,0 +1,33 @@
+/* Large Mobile */
+@media (min-width: $break-lm) {	
+	.r-lm-d-none {
+		display: none;
+	}
+	.r-lm-d-inline {
+		display: inline;
+	}
+	.r-lm-d-inline-block {
+		display: inline-block;
+	}
+	.r-lm-d-block {
+		display: block;
+	}
+	.r-lm-d-grid {
+		display: grid;
+	}
+	.r-lm-d-table {
+		display: table;
+	}
+	.r-lm-d-table-cell {
+		display: none;
+	}
+	.r-lm-d-table-row {
+		display: table-row;
+	}
+	.r-lm-d-flex {
+		display: flex;
+	}
+	.r-lm-d-inline-flex {
+		display: inline-flex;
+	}
+}
