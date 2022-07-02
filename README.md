@@ -4,7 +4,7 @@
 Retina UI is a modern responsive front-end framework for modern websites.
 
 
-<a href="https://retinaui.xyz"><img src="https://res.cloudinary.com/zeetheme/image/upload/v1656723621/Retina%20UI/Retina_UI_Logo.png" alt="Retina UI: Modern CSS framework" style="max-width:100%;" width="600"></a>
+<a href="https://retinaui.xyz"><img src="https://res.cloudinary.com/zeetheme/image/upload/v1656723621/Retina%20UI/Retina_UI_Logo.png" alt="Retina UI: Modern CSS framework"></a>
 
 ## Get Started
 
