@@ -300,6 +300,29 @@
 		margin-bottom: var(--n-neg-space-5);
 	}
 
+	.r-ld-mar-auto {
+		margin: auto;
+	}
+	.r-ld-mar-t-auto {
+		margin-top: auto;
+	}
+	.r-ld-mar-b-auto {
+		margin-bottom: auto;
+	}
+	.r-ld-mar-l-auto {
+		margin-left: auto;
+	}
+	.r-ld-mar-r-auto {
+		margin-right: auto;
+	}
+	.r-ld-mar-x-auto {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.r-ld-mar-y-auto {
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 	.r-ld-mar-min-100 {
 		margin: 100px;

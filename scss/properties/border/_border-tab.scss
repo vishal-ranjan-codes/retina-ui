@@ -20,23 +20,47 @@
 		border-right: var(--layout-border);
 	}
 
-	.r-tab-border-t-0 {
+	.r-tab-border-t-none {
 		border-top: 0px;
 	}
 
-	.r-tab-border-b-0 {
+	.r-tab-border-b-none {
 		border-bottom: 0px;
 	}
 
-	.r-tab-border-l-0 {
+	.r-tab-border-l-none {
 		border-left: 0px;
 	}
 
-	.r-tab-border-r-0 {
+	.r-tab-border-r-none {
 		border-right: 0px;
 	}
 
-	.r-tab-border-0 {
+	.r-tab-border-none {
 		border: 0px;
+	}
+
+		.r-tab-border-w-1 {
+		border-width: 1px;
+	}
+
+	.r-tab-border-w-2 {
+		border-width: 2px;
+	}
+
+	.r-tab-border-w-3 {
+		border-width: 3px;
+	}
+
+	.r-tab-border-w-4 {
+		border-width: 4px;
+	}
+
+	.r-tab-border-w-5 {
+		border-width: 5px;
+	}
+
+	.r-tab-border-w-0 {
+		border-width: 0;
 	}
 }

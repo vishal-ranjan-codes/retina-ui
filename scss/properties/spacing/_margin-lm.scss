@@ -125,6 +125,30 @@
 		margin-bottom: var(--n-space-5);
 	}
 
+	.r-lm-mar-auto {
+		margin: auto;
+	}
+	.r-lm-mar-t-auto {
+		margin-top: auto;
+	}
+	.r-lm-mar-b-auto {
+		margin-bottom: auto;
+	}
+	.r-lm-mar-l-auto {
+		margin-left: auto;
+	}
+	.r-lm-mar-r-auto {
+		margin-right: auto;
+	}
+	.r-lm-mar-x-auto {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.r-lm-mar-y-auto {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 
 	.r-lm-mar-100 {
 		margin: 100px;

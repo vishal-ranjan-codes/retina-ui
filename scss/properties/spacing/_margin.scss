@@ -123,6 +123,30 @@
 	margin-bottom: var(--n-space-5);
 }
 
+.r-mar-auto {
+	margin: auto;
+}
+.r-mar-t-auto {
+	margin-top: auto;
+}
+.r-mar-b-auto {
+	margin-bottom: auto;
+}
+.r-mar-l-auto {
+	margin-left: auto;
+}
+.r-mar-r-auto {
+	margin-right: auto;
+}
+.r-mar-x-auto {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.r-mar-y-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .r-mar-100 {
 	margin: 100px;
