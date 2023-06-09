@@ -1,5 +1,5 @@
 /* Tablet */
-@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+@media ( max-width: $break-tab-largest ) {
 	.r-tab-bg-primary {
 		background: var(--color-primary);
 	}
@@ -32,16 +32,20 @@
 		background: var(--color-theme-black);
 	}
 
-	.r-tab-bg-layout-primary {
+	.r-tab-bg-layout-1 {
 		background: var(--color-layout-1);
 	}
 
-	.r-tab-bg-layout-secondary {
+	.r-tab-bg-layout-2 {
 		background: var(--color-layout-2);
 	}
 
-	.r-tab-bg-layout-tertiary {
+	.r-tab-bg-layout-3 {
 		background: var(--color-layout-3);
+	}
+
+	.r-tab-bg-layout-4 {
+		background: var(--color-layout-4);
 	}
 
 	.r-tab-bg-transparent {
@@ -50,97 +54,101 @@
 
 	/*Text Color*/
 
-	.r-tab-text-primary {
+	.r-tab-fc-primary {
 		color: var(--color-primary);
 	}
 
-	.r-tab-text-secondary {
+	.r-tab-fc-secondary {
 		color: var(--color-secondary);
 	}
 
-	.r-tab-text-success {
+	.r-tab-fc-success {
 		color: var(--color-theme-success);
 	}
 
-	.r-tab-text-danger {
+	.r-tab-fc-danger {
 		color: var(--color-theme-danger);
 	}
 
-	.r-tab-text-warning {
+	.r-tab-fc-warning {
 		color: var(--color-theme-warning);
 	}
 
-	.r-tab-text-info {
+	.r-tab-fc-info {
 		color: var(--color-theme-info);
 	}
 
-	.r-tab-text-white {
+	.r-tab-fc-white {
 		color: var(--color-theme-white);
 	}
 
-	.r-tab-text-black {
+	.r-tab-fc-black {
 		color: var(--color-theme-black);
 	}
 
-	.r-tab-text-heading {
+	.r-tab-fc-heading {
 		color: var(--heading-color);
 	}
 
-	.r-tab-text-def {
+	.r-tab-fc-default {
 		color: var(--font-color);
 	}
 
-	.r-tab-text-def-2 {
+	.r-tab-fc-light {
 		color: var(--font-color-2);
+	}
+
+	.r-tab-fc-lighter {
+		color: var(--font-color-3);
 	}
 
 	/*Border Color*/
 
-	.r-tab-border-layout {
+	.r-tab-bc-layout {
 		border-color: var(--color-layout-border);
 	}
 
-	.r-tab-border-layout-2 {
+	.r-tab-bc-layout-2 {
 		border-color: var(--color-layout-border-2);
 	}
 
-	.r-tab-border-layout-3 {
-		border-color: var(--color-layout-border-2);
+	.r-tab-bc-layout-3 {
+		border-color: var(--color-layout-border-3);
 	}
 
-	.r-tab-border-primary {
+	.r-tab-bc-primary {
 		border-color: var(--color-primary);
 	}
 
-	.r-tab-border-secondary {
+	.r-tab-bc-secondary {
 		border-color: var(--color-secondary);
 	}
 
-	.r-tab-border-success {
+	.r-tab-bc-success {
 		border-color: var(--color-theme-success);
 	}
 
-	.r-tab-border-danger {
+	.r-tab-bc-danger {
 		border-color: var(--color-theme-danger);
 	}
 
-	.r-tab-border-warning {
+	.r-tab-bc-warning {
 		border-color: var(--color-theme-warning);
 	}
 
-	.r-tab-border-info {
+	.r-tab-bc-info {
 		border-color: var(--color-theme-info);
 	}
 
-	.r-tab-border-white {
+	.r-tab-bc-white {
 		border-color: var(--color-theme-white);
 	}
 
-	.r-tab-border-black {
+	.r-tab-bc-black {
 		border-color: var(--color-theme-black);
 	}
 
-	.r-tab-border-transparent {
+	.r-tab-bc-transparent {
 		border-color: transparent;
 	}
 }

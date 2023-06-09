@@ -1,5 +1,5 @@
 /* Tablet */
-@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+@media ( max-width: $break-tab-largest ) {
 	.r-tab-width-25 {
 		width: 25%;
 	}
@@ -18,6 +18,14 @@
 
 	.r-tab-width-auto {
 		width: auto;
+	}
+
+	.r-tab-max-width-lm {
+		max-width: $large-mobile;
+	}
+
+	.r-tab-max-width-sm {
+		max-width: $small-mobile;
 	}
 
 	.r-tab-max-width-100 {

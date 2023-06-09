@@ -20,6 +20,18 @@
 		width: auto;
 	}
 
+	.r-sd-max-width-tab {
+		max-width: $small-desktop;
+	}
+
+	.r-sd-max-width-lm {
+		max-width: $large-mobile;
+	}
+
+	.r-sd-max-width-sm {
+		max-width: $small-mobile;
+	}
+
 	.r-sd-max-width-100 {
 		max-width: 100%;
 	}

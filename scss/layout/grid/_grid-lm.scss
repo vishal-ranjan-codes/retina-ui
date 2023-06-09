@@ -1,5 +1,5 @@
 /* Large Mobile */
-@media (min-width: $break-lm) {
+@media (max-width: $break-lm) {
 	.r-lm-grid {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);

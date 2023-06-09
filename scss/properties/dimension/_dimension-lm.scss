@@ -1,5 +1,5 @@
 /* Large Mobile */
-@media (min-width: $break-lm) {
+@media (max-width: $break-lm) {
 	.r-lm-width-25 {
 		width: 25%;
 	}
@@ -18,6 +18,10 @@
 
 	.r-lm-width-auto {
 		width: auto;
+	}
+
+	.r-lm-max-width-sm {
+		max-width: $small-mobile;
 	}
 
 	.r-lm-max-width-100 {

@@ -1,5 +1,5 @@
 /* Large Desktop */
-@media (min-width: $break-lm) {
+@media (max-width: $break-lm) {
 	.r-lm-flex-row {
 		flex-direction: row;
 	}

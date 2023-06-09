@@ -1,0 +1,130 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+	display: inline-block;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 15px;
+	height: 40px;
+	outline: none;
+	vertical-align: middle;
+	background-color: var(--color-layout-1);
+	border: var(--layout-border-2);
+	border-radius: var(--theme-border-radius);
+	box-shadow: none;
+	padding: 0 12px;
+	color: var(--font-color);
+	width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	background-color: var(--color-layout-2);
+	border-color: var(--color-layout-border-3);
+	box-shadow: none;
+}
+
+select:focus {
+    outline: var(--layout-border-3);
+}
+
+// input[type="text"]:focus-visible,
+// input[type="email"]:focus-visible,
+// input[type="url"]:focus-visible,
+// input[type="password"]:focus-visible,
+// input[type="search"]:focus-visible,
+// input[type="number"]:focus-visible,
+// input[type="tel"]:focus-visible,
+// input[type="range"]:focus-visible,
+// input[type="date"]:focus-visible,
+// input[type="month"]:focus-visible,
+// input[type="week"]:focus-visible,
+// input[type="time"]:focus-visible,
+// input[type="datetime"]:focus-visible,
+// input[type="datetime-local"]:focus-visible,
+// input[type="color"]:focus-visible,
+// textarea:focus-visible {
+// 	outline: 1px solid var(--heading-color);
+// }
+
+textarea {
+	width: 100%;
+	height: auto;
+	padding: 8px 12px;
+	line-height: 20px;
+	vertical-align: top;
+}
+
+label {
+	color: var(--font-color-2);
+}
+
+form label {
+	display: inline-block;
+	margin: 10px 0 6px 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: 10px;
+}
+
+form button,
+form .button,
+form input[type="button"],
+form input[type="reset"],
+form input[type="submit"] {
+    margin-top: 15px;
+}
+
+select,
+.r-form-select {
+	background-image: url(https://res.cloudinary.com/zeetheme/image/upload/v1668625068/Retina%20UI/select-icon.svg);
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+	background-size: 18px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding-right: 35px;
+}
+
+::placeholder {
+	color: var(--font-color-2);
+}
+
+:-ms-input-placeholder {
+	color: var(--font-color-2);
+}
+
+::-ms-input-placeholder {
+	color: var(--font-color-2);
+}

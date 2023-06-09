@@ -1,5 +1,5 @@
 /* Large Mobile */
-@media (min-width: $break-lm) {
+@media (max-width: $break-lm) {
 	.r-lm-shadow-s {
 		box-shadow: 3px 3px 10px #00000015;
 	}

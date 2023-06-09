@@ -1,5 +1,5 @@
 /* Tablet */
-@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+@media ( max-width: $break-tab-largest ) {
 	.r-tab-fs-1 {
 		font-size: var(--font-size-1);
 	}
@@ -18,6 +18,10 @@
 
 	.r-tab-fs-5 {
 		font-size: var(--font-size-5);
+	}
+
+	.r-tab-fs-6 {
+		font-size: var(--font-size-6);
 	}
 
 	.r-tab-fs-regular {

@@ -1,5 +1,5 @@
 /* Small Mobile */
-@media (min-width: $break-sm) {
+@media (max-width: $break-sm) {
 	.r-sm-position-static {
 		position: static;
 	}

@@ -1,42 +1,76 @@
 .r-container:after,
+.r-container-max-tab:after,
+.r-container-max-tab:after,
+.r-container-max-tab:after,
 .clear:after {
 	clear: both;
 }
 
 .r-container:before,
+.r-container-max-tab:before,
+.r-container-max-tab:before,
+.r-container-max-tab:before,
 .r-container:after,
+.r-container-max-tab:after,
+.r-container-max-tab:after,
+.r-container-max-tab:after,
 .clear:before,
 .clear:after {
 	display: table;
 	content: "";
 }
 
-.r-container {
+.r-container,
+.r-container-max-ld,
+.r-container-max-sd,
+.r-container-max-tab,
+.r-container-max-lm,
+.r-container-max-sm {
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0 var(--container-horizontal-spacing);
 }
 
-@media (min-width: 768px) {
+.r-container-max-ld {
+	max-width: $large-desktop;
+}
+
+.r-container-max-sd {
+	max-width: var(--container-max-width);
+}
+
+.r-container-max-tab {
+	max-width: $small-desktop;
+}
+
+.r-container-max-lm {
+	max-width: $large-mobile;
+}
+
+.r-container-max-sm {
+	max-width: $small-mobile;
+}
+
+.r-container-pad-x {
+	padding-left: var( --container-horizontal-spacing );
+	padding-right: var( --container-horizontal-spacing );
+}
+
+.r-container-pad-y {
+	padding-top: var( --container-vertical-spacing );
+	padding-bottom: var( --container-vertical-spacing );
+}
+
+
+
+@media (min-width: $large-mobile) {
 	.r-container {
-		max-width: 1200px;
-		padding: 0 30px;
+		max-width: var(--container-max-width);
 	}
 }
 
-@media (min-width: 1400px) {
-	.r-container {
-		max-width: 1320px;
-	}
-}
-
-@media (max-width: 767px) {
-	.r-container {
-		padding: 0 20px;
-	}
-}
-
-@media (max-width: 500px) {
-	.r-container {
-		padding: 0 15px;
-	}
-}
+// @media (min-width: $break-ld) {
+// 	.r-container {
+// 		max-width: 1320px;
+// 	}
+// }

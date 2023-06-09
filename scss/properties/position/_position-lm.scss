@@ -1,5 +1,5 @@
 /* Large Mobile */
-@media (min-width: $break-lm) {
+@media (max-width: $break-lm) {
 	.r-lm-position-static {
 		position: static;
 	}

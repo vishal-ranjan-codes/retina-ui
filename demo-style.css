@@ -1,0 +1,41 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+	--global-font-family: 'Inter Tight', sans-serif;
+	--highlight-font-family: 'Inter Tight', sans-serif;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	accent-color: var(--color-primary);
+}
+
+.site-content {
+	min-height: calc( 100vh - 117px );
+}
+
+.header-menu-toggle {
+	width: 25px;
+}
+
+.header-menu-toggle .toggle-line {
+	height: 2px;
+	border-radius: 5px;
+	color: var(--font-color);
+}
+
+@media ( max-width: 767px ) {
+	.main-header .main-menu .main-menu-content {
+		height: 100%;
+		width: 65%;
+		background: var(--color-layout-1);
+		position: relative;
+	}
+
+	#header-main-menu.show {
+		display: block;
+	}
+}

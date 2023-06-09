@@ -1,5 +1,5 @@
 /* Tablet */
-@media ( max-width: $break-tab-largest ) and ( min-width: $break-tab-smallest ) {
+@media ( max-width: $break-tab-largest ) {
 	.r-tab-align-items-start {
 		align-items: flex-start;
 	}

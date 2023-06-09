@@ -1,5 +1,5 @@
 /* Small Mobile */
-@media (min-width: $break-sm) {
+@media (max-width: $break-sm) {
 	.r-sm-shadow-s {
 		box-shadow: 3px 3px 10px #00000015;
 	}

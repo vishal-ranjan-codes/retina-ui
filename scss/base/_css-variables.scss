@@ -1,19 +1,12 @@
-/**
- * Custom Properties
- * aka CSS variables.
- *
- * @link: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
- **/
+:root {
+	--color-primary: #9d6bf2;
+	--color-secondary: #6b42b1;
 
- :root {
- 	--color-primary: #9d6bf2;
-    --color-secondary: #ffaa73;
+	--color-link: var(--color-primary);
+	--color-link-visited: var(--color-secondary);
+	--color-link-active: var(--color-secondary);
 
-    --color-link: var(--color-primary);
-    --color-link-visited: var(--color-secondary);
-    --color-link-active: var(--color-secondary);
-
- 	--color-layout-1: #fff;
+	--color-layout-1: #fff;
 	--color-layout-2: #f6f6f6;
 	--color-layout-3: #f1f1f1;
 	--color-layout-4: #e6e6e6;
@@ -55,12 +48,12 @@
  }
 
  .retinaui-light-theme {
- 	--color-primary: #9d6bf2;
-    --color-secondary: #ffaa73;
+	--color-primary: #9d6bf2;
+	--color-secondary: #6b42b1;
 
-    --color-link: var(--color-primary);
-    --color-link-visited: var(--color-secondary);
-    --color-link-active: var(--color-secondary);
+	--color-link: var(--color-primary);
+	--color-link-visited: var(--color-secondary);
+	--color-link-active: var(--color-secondary);
 
 	--color-layout-1: #fff;
 	--color-layout-2: #f6f6f6;
@@ -105,7 +98,7 @@
 
 .retinaui-dark-theme {
 	--color-primary: #9d6bf2;
-    --color-secondary: #ffaa73;
+    --color-secondary: #6b42b1;
 
     --color-link: var(--color-primary);
     --color-link-visited: var(--color-secondary);
@@ -156,8 +149,8 @@
 	--content-width: 45rem;
 
 	/* Typography */
-	--global-font-family: "Nunito", sans-serif;
-	--highlight-font-family: "Nunito", sans-serif;
+	--global-font-family: "Roboto Condensed", arial, sans-serif;
+	--highlight-font-family: "Roboto Condensed", arial, sans-serif;
 	--global-font-size: 16;
 	--global-font-line-height: 1.4;
 
@@ -172,6 +165,7 @@
 	--font-size-3: 20px;
 	--font-size-4: 16px;
 	--font-size-5: 14px;
+	--font-size-6: 12px;
 
 	/* Layout Border */
 	--layout-bw: 1px;
@@ -209,6 +203,9 @@
 	--color-theme-danger: #ff2b2b;
 	--color-theme-warning: #eb6811;
 	--color-theme-info: #0dcaf0;
+
+	/* Container Max Width */
+	--container-max-width: 1200px;
 
 	/* Container Spacing */
 	--container-vertical-spacing: 30px;

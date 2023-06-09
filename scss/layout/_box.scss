@@ -6,7 +6,7 @@
 	border-width: var(--layout-box-border-width);
 }
 
-.r-box.r-layout-border-b {
+.r-box.r-box-border-b {
 	--layout-shadow-offset: 0 6px var(--layout-shadow-out-blur) -6px var(--layout-shadow-out-color);
 	--layout-shadow-inset: inset -1px 0 var(--layout-shadow-in-blur) var(--layout-shadow-in-spread) var(--layout-shadow-in-color);
 
@@ -17,7 +17,7 @@
 	border-right: 0;
 }
 
-.r-box.r-layout-border-t {
+.r-box.r-box-border-t {
 	--layout-shadow-offset: 0 -6px var(--layout-shadow-out-blur) -6px var(--layout-shadow-out-color);
 	--layout-shadow-inset: inset var(--layout-shadow-in-horizontal) 0 var(--layout-shadow-in-blur) var(--layout-shadow-in-spread) var(--layout-shadow-in-color);
 
@@ -28,7 +28,7 @@
 	border-right: 0;
 }
 
-.r-box.r-layout-border-r {
+.r-box.r-box-border-r {
 	--layout-shadow-offset: 6px 0 var(--layout-shadow-out-blur) -6px var(--layout-shadow-out-color);
 	--layout-shadow-inset: inset var(--layout-shadow-in-horizontal) 0 var(--layout-shadow-in-blur) var(--layout-shadow-in-spread) var(--layout-shadow-in-color);
 
@@ -39,7 +39,7 @@
 	border-left: 0;
 }
 
-.r-box.r-layout-border-l {
+.r-box.r-box-border-l {
 	--layout-shadow-offset: -6px 0 var(--layout-shadow-out-blur) -6px var(--layout-shadow-out-color);
 	--layout-shadow-inset: inset 0 -1px var(--layout-shadow-in-blur) var(--layout-shadow-in-spread) var(--layout-shadow-in-color);
 

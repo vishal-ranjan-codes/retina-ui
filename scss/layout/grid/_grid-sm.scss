@@ -1,5 +1,5 @@
 /* Small Mobile */
-@media (min-width: $break-sm) {
+@media (max-width: $break-sm) {
 	.r-sm-grid {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);

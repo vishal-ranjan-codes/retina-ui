@@ -1,5 +1,5 @@
 /* Large Mobile */
-@media (min-width: $break-lm) {
+@media (max-width: $break-lm) {
 	.r-lm-fs-1 {
 		font-size: var(--font-size-1);
 	}
@@ -18,6 +18,10 @@
 
 	.r-lm-fs-5 {
 		font-size: var(--font-size-5);
+	}
+
+	.r-lm-fs-6 {
+		font-size: var(--font-size-6);
 	}
 
 	.r-lm-fs-regular {

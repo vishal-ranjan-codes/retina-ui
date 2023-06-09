@@ -1,5 +1,5 @@
 /* Small Mobile */
-@media (min-width: $break-sm) {
+@media (max-width: $break-sm) {
 	.r-sm-theme-br {
 		border-radius: var(--theme-border-radius);
 	}

@@ -1,5 +1,5 @@
 /* Small Mobile */
-@media (min-width: $break-sm) {
+@media (max-width: $break-sm) {
 	.r-sm-pad-1 {
 		padding: var(--n-space-1);
 	}
@@ -14,6 +14,9 @@
 	}
 	.r-sm-pad-5 {
 		padding: var(--n-space-5);
+	}
+	.r-sm-pad-6 {
+		padding: var(--n-space-6);
 	}
 
 
@@ -32,6 +35,9 @@
 	.r-sm-pad-l-5 {
 		padding-left: var(--n-space-5);
 	}
+	.r-sm-pad-l-6 {
+		padding-left: var(--n-space-6);
+	}
 
 	.r-sm-pad-r-1 {
 		padding-right: var(--n-space-1);
@@ -47,6 +53,9 @@
 	}
 	.r-sm-pad-r-5 {
 		padding-right: var(--n-space-5);
+	}
+	.r-sm-pad-r-6 {
+		padding-right: var(--n-space-6);
 	}
 
 	.r-sm-pad-t-1 {
@@ -64,6 +73,9 @@
 	.r-sm-pad-t-5 {
 		padding-top: var(--n-space-5);
 	}
+	.r-sm-pad-t-6 {
+		padding-top: var(--n-space-6);
+	}
 
 	.r-sm-pad-b-1 {
 		padding-bottom: var(--n-space-1);
@@ -79,6 +91,9 @@
 	}
 	.r-sm-pad-b-5 {
 		padding-bottom: var(--n-space-5);
+	}
+	.r-sm-pad-b-6 {
+		padding-bottom: var(--n-space-6);
 	}
 
 
@@ -102,6 +117,10 @@
 		padding-left: var(--n-space-5);
 		padding-right: var(--n-space-5);
 	}
+	.r-sm-pad-x-6 {
+		padding-left: var(--n-space-6);
+		padding-right: var(--n-space-6);
+	}
 
 
 	.r-sm-pad-y-1 {
@@ -123,6 +142,10 @@
 	.r-sm-pad-y-5 {
 		padding-top: var(--n-space-5);
 		padding-bottom: var(--n-space-5);
+	}
+	.r-sm-pad-y-6 {
+		padding-top: var(--n-space-6);
+		padding-bottom: var(--n-space-6);
 	}
 
 
